@@ -1,0 +1,39 @@
+.product-intro-section {
+    padding: 4rem 2rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.intro-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.product-intro-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .product-intro-section {
+        padding: 3rem 1.5rem;
+    }
+
+    .product-intro-section h2 {
+        font-size: 2rem;
+    }
+}

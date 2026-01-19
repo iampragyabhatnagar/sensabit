@@ -1,0 +1,129 @@
+.terms-section {
+  padding: 120px 2rem 2rem;
+  position: relative;
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.terms-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/dozemate_empty.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.terms-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  padding: 2rem 2rem;
+}
+
+.terms-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, #fff 0%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.terms-content {
+  line-height: 1.8;
+  color: #d0d0d0;
+}
+
+.terms-intro {
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: transparent;
+  border-left: 3px solid rgba(0, 212, 255, 0.3);
+  border-radius: 10px;
+}
+
+.terms-section-content {
+  margin-bottom: 3rem;
+  background: transparent;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.terms-section-content h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+}
+
+.terms-section-content p {
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  color: #d0d0d0;
+}
+
+.terms-section-content p strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.terms-section-content ul {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  list-style-type: disc;
+}
+
+.terms-section-content ul li {
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  margin-bottom: 0.8rem;
+  line-height: 1.8;
+  color: #d0d0d0;
+}
+
+.terms-section-content ul li::marker {
+  color: rgba(0, 212, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .terms-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .terms-intro {
+    padding: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .terms-section-content {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+  }
+
+  .terms-section-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .terms-section-content ul {
+    padding-left: 1.5rem;
+  }
+}
