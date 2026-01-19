@@ -46,10 +46,11 @@ const Footer = () => {
           <div className="footer-column">
             <h4 className="footer-title">Company</h4>
             <ul className="footer-links">
-              <li><a href="/about">About Us</a></li>
-              <li><a href="/contact">Contact</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/careers">Careers</a></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/blog">Blog</Link></li>
+              <li><Link to="/careers">Careers</Link></li>
+
             </ul>
           </div>
 
