@@ -17,6 +17,31 @@ const About = () => {
       <section id="about" className="about-section">
         <div className="about-background"></div>
         <div className="about-container">
+          <h1 className="about-title">About Us</h1>
+          <div className="about-section-content">
+            <h2>Founders</h2>
+            <div className="team-grid">
+              <div className="team-card">
+                <div className="team-image-wrapper">
+                  <img src="/about_us/Anushka Bainsla.png" alt="Anushka Bainsla" className="team-image" />
+                </div>
+                <h3>Anushka Bainsla</h3>
+                <p>Marketing Expert (Canada & US)</p>
+              </div>
+              <div className="team-card">
+                <div className="team-image-wrapper">
+                  <img
+                    src="/about_us/Monica Sharma.png"
+                    alt="Monica Sharma"
+                    className="team-image"
+                  />
+                </div>
+                <h3>Monica Sharma</h3>
+                <p>Business Expert, Health Enthusiast</p>
+              </div>
+            </div>
+          </div>
+
           <div className="about-section-content">
             <h2>Medical Experts</h2>
             <div className="team-grid">

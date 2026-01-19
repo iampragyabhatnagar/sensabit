@@ -47,7 +47,7 @@
 
 .about-content {
   line-height: 1.8;
-  color: #d0d0d0;
+  color: #e6e6e6;
 }
 
 .about-section-content {
@@ -55,6 +55,8 @@
   background: transparent;
   padding: 1rem 0;
 }
+
+
 
 .about-section-content h2 {
   font-size: clamp(1.8rem, 3.5vw, 2.5rem);
@@ -135,7 +137,7 @@
 
 .team-card p {
   font-size: clamp(0.95rem, 1.5vw, 1.1rem);
-  color: #b0b0b0;
+  color: #e6e6e6;
   line-height: 1.6;
   margin: 0;
 }
