@@ -9,7 +9,7 @@ A modern, responsive React landing page for dozemate - bio-sense for smart beds.
 - 🎬 Video integration with custom player
 - ✨ Smooth animations and transitions
 - 🌊 Gradient effects and glassmorphism
-- 🎯 Interactive navigation with smooth scrolling
+- 🎯 Interactive navigation with smooth scrolling.
 
 ## Getting Started
 
